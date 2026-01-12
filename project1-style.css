@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.time {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-weight: bold;
+    font-size: 70px;
+    margin-right: 15px;
+    color: #000000;
+}
+
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 1000px;
+}
+
+.content img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content p {
+    margin: 0;
+}
+
+
+
+.TEST1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 600px;
+}
