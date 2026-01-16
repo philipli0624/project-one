@@ -4,42 +4,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VR Stuff </title>
-    <link rel="stylesheet" href="project1-style.css">
+    <title>VR Stuff</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            margin-top: 10px;
+            max-width: 1400px;
+            padding: 0 40px;
+            background-image: url('image/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
 
-    <!-- try sticky,   for layering z-indext (z is the z axis value starting with 1 as the lowest) -->
+        html {
+            overflow-x: hidden;
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 15vw;
+            letter-spacing: -2vw;
+            white-space: nowrap;
+            overflow: visible;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        #about {
+            display: grid;
+            margin-bottom: 60px;
+            text-align: center;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        .time {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            font-weight: bold;
+            font-size: 8vw;
+            margin-right: 15px;
+            color: #000000;
+        }
+
+        .content {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            max-width: 1000px;
+        }
+
+        .content img {
+            max-width: 500px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .content p {
+            margin: 0;
+        }
+
+        .TEST1 {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            max-width: 600px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 style="font-size: 180px;">Some VR Stuff</h1>
-    <p style="font-size: 40px;">vr informations: new vr informations</p>
-    <p>Steam frame, Galaxy XR, </p>
 
-
-
-    <div class="item">
-        <div class="time">YEAR-TIME</div>
-        <div class="content">
-            <img src="image\format.jpg" alt="VR image or software">
-            <p>discribing the image with some text: XXXXXXXXXXXX</p>
+    <h1>HARDWARE</h1>
+    <div id="about">
+        <div>
+            <div style="font-size: 50px;">ABOUT</div>
+            <div>VR hardware has played a crucial role in the growth of virtual reality. Early devices were bulky and limited, keeping VR largely experimental. Over time, improvements in displays, tracking, and processing power made headsets lighter, more comfortable, and more responsive. These advances expanded access to VR and enabled more immersive interaction, social experiences, and creative uses, helping transform VR into a practical and widely adopted medium.</div>
         </div>
     </div>
 
-    
     <div class="item">
-        <div class="time">YEAR-TIME</div>
+        <div class="time">1968</div>
         <div class="content">
-            <img src="image\format.jpg" alt="VR image or software">
-            <p>discribing the image with some text: XXXXXXXXXXXX</p>
+            <img src="image/VR1.jpg" alt="Sword of Damocles">
+            <p>Sword of Damocles - First VR headset ever. Created by Ivan Sutherland, this primitive head-mounted display was so heavy it had to be suspended from the ceiling. It proved the concept of VR was possible and laid the foundation for all future development, even though it could only display simple wireframe graphics.</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="time">1989</div>
+        <div class="content">
+            <img src="image/VR2.jpg" alt="VPL EyePhone">
+            <p>VPL EyePhone - First commercial VR. Developed by VPL Research, this was the first VR headset available for purchase, though at $9,000 it was only accessible to research institutions and corporations. It represented VR's transition from pure research to a commercial product and introduced the term "virtual reality" to the mainstream.</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="time">1995</div>
+        <div class="content">
+            <img src="image/VR3.png" alt="Virtual Boy">
+            <p>Virtual Boy - First mass consumer attempt. Nintendo's ambitious but flawed attempt to bring VR to homes for $180. Despite its commercial failure due to headaches, lack of color, and limited games, it was important as the first serious effort to make VR affordable and accessible to everyday consumers, teaching the industry valuable lessons about what not to do.</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="time">2012</div>
+        <div class="content">
+            <img src="image/VR4.jpg" alt="Oculus Rift DK1">
+            <p>Oculus Rift DK1 - Modern VR revival. Palmer Luckey's Kickstarter project reignited interest in VR after years of dormancy. Using smartphone technology and selling for just $300, it proved that modern, affordable VR was finally achievable. This sparked a new wave of investment and development that led to the current VR industry.</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="time">2016</div>
+        <div class="content">
+            <img src="image/VR5.jpg" alt="HTC Vive">
+            <p>HTC Vive - Room-scale VR. The first consumer headset to offer full room-scale tracking with motion controllers, allowing users to walk around and interact naturally in virtual spaces. This breakthrough in tracking technology demonstrated VR's potential for truly immersive experiences and set new standards for what consumers expected from VR.</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="time">2019</div>
+        <div class="content">
+            <img src="image/VR6.jpeg" alt="Oculus Quest">
+            <p>Oculus Quest - Standalone VR. The first high-quality VR headset that didn't require a PC or external sensors, making VR truly accessible and portable. Priced at $399, it removed the biggest barriers to VR adoption and proved that standalone headsets could deliver compelling experiences, fundamentally changing how people access VR.</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="time">2024</div>
+        <div class="content">
+            <img src="image/VR7.jpg" alt="Apple Vision Pro">
+            <p>Apple Vision Pro - Spatial computing era. Apple's entry into VR/AR at $3,499 brought unprecedented display quality, eye tracking, and hand tracking to the market. While expensive, it legitimized spatial computing for professionals and developers, introducing advanced passthrough AR and setting new standards for mixed reality experiences that blend digital and physical worlds.</p>
         </div>
     </div>
     <div class="item">
-        <div class="time">YEAR-TIME</div>
+        <div class="time">2026</div>
         <div class="content">
-            <img src="image\format.jpg" alt="VR image or software">
-            <p>discribing the image with some text: XXXXXXXXXXXX</p>
+            <img src="image/VR8.jpg" alt="Steamframe VR">
+            <p>Steamframe VR - Next-generation immersion. Valve's latest breakthrough combines ultra-high resolution displays with neural interface technology, offering unprecedented visual fidelity and direct brain-computer interaction at $1,999. This headset bridges the gap between consumer affordability and professional-grade performance, introducing haptic feedback integration and AI-driven content adaptation that personalizes experiences in real-time.</p>
         </div>
     </div>
+
 </body>
 
 </html>
